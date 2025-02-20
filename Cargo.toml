@@ -1,0 +1,10 @@
+[package]
+name = "thai-address-input"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "thai-address-input"
+path = "main.rs"
