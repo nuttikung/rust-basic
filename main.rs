@@ -1,6 +1,10 @@
 fn main(){
-  let message = "Hi";
-  println!("{}", message)
+	let message = "First";
+	print_message(message)
 }
 
-// Hi
+fn print_message(text: &str){ // Pattern of funtion naming use xxx_xxx
+	println!("{}", text);
+}
+
+// First
